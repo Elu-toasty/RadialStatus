@@ -21,15 +21,15 @@
 
 		// Typing indicator
 		._5ad890d06f24286d-dots circle {
-			cy: -8 !important;
+			cy: 22.25 !important;
 			&:nth-child(1) {
-				cx: -8.5 !important;
+				cx: 17 !important;
 			}
 			&:nth-child(2) {
-				cx: -2.25 !important;
+				cx: 23.25 !important;
 			}
 			&:nth-child(3) {
-				cx: 4 !important;
+				cx: 30.5 !important;
 			}
 		}
 		._44b0c28be7879b7b-mask {
@@ -49,8 +49,8 @@
 			fill: rgba(0, 0, 0, 0.5) !important;
 			width: var(--rs-members-width, 30px);
 			height: var(--rs-members-width, 30px);
-			x: calc((var(--rs-members-width, 30px) / 2) / -1 + 2px);
-			y: calc((var(--rs-members-width, 30px) / 2) / -1);
+			x: calc(var(--rs-members-width, 30px) / 2 - 2px);
+  			y: calc(var(--rs-members-width, 30px) / 2);
 		}
 
 		// Avatar shape
@@ -328,5 +328,12 @@
 	._2debea61131de3de-info ._2debea61131de3de-line:last-child:after {
 		content: 'RadialStatus ' var(--rs-version);
 		display: block;
+	}
+
+	._9293f6b2fc12398a-upperContainer ._44b0c28be7879b7b-wrapper, .ac6cb02cd15b4b3b-quickswitcher {
+		img {
+			margin-left: 2px;
+			margin-top: 2px;
+		}
 	}
 }
