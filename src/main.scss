@@ -104,7 +104,7 @@
 			}
 			&[fill='#593695'],
 			&[mask*='streaming'],
-			&[fill*='var(--status-purple'] {
+			&[fill*='var(--status-purple)'] {
 				stroke: var(--rs-streaming-color);
 			}
 			&[fill='#80848e'],
